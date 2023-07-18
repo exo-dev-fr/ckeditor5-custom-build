@@ -56,6 +56,22 @@ Editor.builtinPlugins = [
 Editor.defaultConfig = {
 	toolbar: {
 		items: [
+			'heading',
+			'bold',
+			'italic',
+			'underline',
+			'strikethrough',
+			'removeFormat',
+			'|',
+			'alignment',
+			'|',
+			'fontColor',
+			'fontBackgroundColor',
+			'|',
+			'specialCharacters',
+			'|',
+			'undo',
+			'redo'
 		]
 	},
 	language: 'fr'
