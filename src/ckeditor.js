@@ -8,6 +8,8 @@ import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
+import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js';
+import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat.js';
@@ -32,6 +34,8 @@ Editor.builtinPlugins = [
 	Essentials,
 	FontBackgroundColor,
 	FontColor,
+	FontFamily,
+	Heading,
 	Italic,
 	Paragraph,
 	RemoveFormat,
@@ -52,21 +56,6 @@ Editor.builtinPlugins = [
 Editor.defaultConfig = {
 	toolbar: {
 		items: [
-			'bold',
-			'italic',
-			'underline',
-			'strikethrough',
-			'removeFormat',
-			'|',
-			'alignment',
-			'|',
-			'fontColor',
-			'fontBackgroundColor',
-			'|',
-			'specialCharacters',
-			'|',
-			'undo',
-			'redo'
 		]
 	},
 	language: 'fr'
